@@ -7,7 +7,7 @@ This experiment involves counting the frequency of n-grams. We were provided wit
 This experiment focuses on generating sentences using the results from Exp1. I employed a top-k algorithm for sentence generation to introduce more randomness into the sequence.
 
 ### Exp3: Sentence Tokenization Using Exp1 Corpus
-In this experiment, sentences provided by users are tokenized using the results from Exp1.
+In this experiment, sentences provided by users are tokenized using the results from Exp1. Here I employed FMM and BMM algorithm.
 
 ### About the Project
 Project 1 comprises Exp1. Exp2 and Exp3 are part of Project 2. In Project 1, I compile it into .lib file for Project 2. In Project 2, I implemented frontend-backend separation technology with Qt6. The backend exclusively utilizes the C++ STL library, making it versatile for integration with different frontends. Additionally, I developed a setup project for deploying the solution on the Windows platform.
