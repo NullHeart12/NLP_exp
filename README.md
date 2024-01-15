@@ -1,7 +1,7 @@
 # NLP_exp
 ## Hfut Natural Language Processing (NLP) Experiments / 合肥工业大学自然语言处理实验
 ### Exp1: Collection and Organization of Corpus
-This experiment involves counting the frequency of n-grams. We were provided with corpora of Chinese Song Ci and People's Daily for processing. In processing the Song Ci corpus, I initially handled it by individual characters. However, upon completion, I realized that it could be more effectively processed using a Python library named 'jiayan', which is designed for tokenizing ancient Chinese texts.
+This experiment involves counting the frequency of n-grams. We were provided with corpora of Chinese Song Ci and People's Daily for processing. In processing the Song Ci corpus, I handled it by individual characters. However, upon completion, I realized that it could be more effectively processed using a Python library named 'jiayan', which is designed for tokenizing ancient Chinese texts.
 
 ### Exp2: Sentence Generation Using Exp1 Corpus
 This experiment focuses on generating sentences using the results from Exp1. I employed a top-k algorithm for sentence generation to introduce more randomness into the sequence.
